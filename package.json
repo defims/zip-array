@@ -2,7 +2,9 @@
   "name": "ziparray",
   "version": "1.0.0",
   "description": "zip array",
-  "scripts": {},
+  "scripts": {
+    "test": "node console.log(require('ziparray'));"
+  },
   "keywords": [],
   "author": "weilong",
   "license": "GPL-3.0",

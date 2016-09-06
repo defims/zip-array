@@ -12,7 +12,6 @@
         root.ziparray = factory();
   }
 }(this, function () {
-    // can return a function as the exported value.
     return function ziparray(a, callback){
         var ret = [];
         for(var i=0, l=a.length, ai; i < l; i++) {
@@ -22,7 +21,7 @@
                 ret[j][i] = ai[j];
             }
         }
-        return callback(ret)
+        callback(ret)
     };
 }));
 
