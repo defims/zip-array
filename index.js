@@ -1,13 +1,19 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['ziparray'], factory);
-    } else if (typeof exports === 'object') {
-        module.exports = factory(require('ziparray'));
+        // AMD. Register as an anonymous module.
+        define([], factory);
+    } else if (typeof module === 'object' && module.exports) {
+        // Node. Does not work with strict CommonJS, but
+        // only CommonJS-like environments that support module.exports,
+        // like Node.
+        module.exports = factory();
     } else {
-        root.returnExports = factory(root.ziparray);
-    }
+        // Browser globals (root is window)
+        root.ziparray = factory();
+  }
 }(this, function () {
-    return function(a, callback) {
+    // can return a function as the exported value.
+    return function ziparray(a, callback){
         var ret = [];
         for(var i=0, l=a.length, ai; i < l; i++) {
             for(var j=0, ai=a[i], m=ai.length; j < m; j++) {
@@ -19,3 +25,4 @@
         return callback(ret)
     };
 }));
+
