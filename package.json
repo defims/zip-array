@@ -1,0 +1,9 @@
+{ 
+  "name": "zipArray", 
+  "version": "1.0.0", 
+  "description": "zip array",
+  "scripts": {}, 
+  "keywords": [], 
+  "author": "weilong", 
+  "license": "GPL"
+}
