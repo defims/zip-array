@@ -9,10 +9,10 @@
         module.exports = factory();
     } else {
         // Browser globals (root is window)
-        root.ziparray = factory();
+        root.zip_array = factory();
   }
 }(this, function () {
-    return function ziparray(a, callback){
+    return function zip_array(a, callback){
         var ret = [];
         for(var i=0, l=a.length, ai; i < l; i++) {
             for(var j=0, ai=a[i], m=ai.length; j < m; j++) {
