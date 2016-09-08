@@ -1,5 +1,5 @@
-var ziparray = require("./index")
-ziparray([[1,2], [10, 20], [100, 200]], function(array) {
+var zip_array = require("./index")
+zip_array([[1,2], [10, 20], [100, 200]], function(array) {
     console.log(
         JSON.stringify(array)
         ===
