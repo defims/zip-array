@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "zip array",
   "scripts": {
-    "test": "node console.log(require('ziparray'));"
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "weilong",
