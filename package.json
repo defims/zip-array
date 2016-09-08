@@ -1,5 +1,5 @@
 {
-  "name": "ziparray",
+  "name": "zip_array",
   "version": "1.0.0",
   "description": "zip array",
   "scripts": {
@@ -11,10 +11,10 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/defims/ziparray.git"
+    "url": "git+https://github.com/defims/zip_array.git"
   },
   "bugs": {
-    "url": "https://github.com/defims/ziparray/issues"
+    "url": "https://github.com/defims/zip_array/issues"
   },
-  "homepage": "https://github.com/defims/ziparray#readme"
+  "homepage": "https://github.com/defims/zip_array#readme"
 }
