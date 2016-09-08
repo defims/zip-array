@@ -1,4 +1,4 @@
-# ziparray
+# zip_array
 
 ## what 
 
