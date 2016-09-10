@@ -21,7 +21,7 @@
                 ret[j][i] = ai[j];
             }
         }
-        callback(ret)
+        return callback(ret)
     };
 }));
 
